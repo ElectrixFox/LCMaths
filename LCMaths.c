@@ -1,5 +1,7 @@
 #include "LCMaths.h"
 
+int w, h;
+
 void SetMatrix(m4* set, matrixv4 as)
 {
     for (int y = 0; y < 4; y++)
